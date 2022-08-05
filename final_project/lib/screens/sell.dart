@@ -41,9 +41,9 @@ class _sellScreenState extends State<sellScreen> {
 
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 0, 234, 255),
+          backgroundColor: Color.fromARGB(255, 255, 251, 0),
           iconTheme: IconThemeData(color: Colors.black),
-          title: const Text('Sell'),
+          title: const Text('Sell', style: TextStyle(color: Colors.black)),
           actions: [
             IconButton(
                 icon: Icon(Icons.add),
@@ -87,7 +87,7 @@ class _sellScreenState extends State<sellScreen> {
                                 builder: (context) =>
                                     productDescriptionS(sellProducts[index]))),
                         child: Card(
-                          color: Color.fromARGB(255, 252, 253, 192),
+                          color: Colors.white,
                           shape: RoundedRectangleBorder(
                             side: BorderSide(
                               color: Colors.black,
@@ -99,7 +99,7 @@ class _sellScreenState extends State<sellScreen> {
                               AspectRatio(
                                   aspectRatio: 2,
                                   child: Container(
-                                    color: Color.fromARGB(255, 252, 253, 192),
+                                    color: Colors.white,
                                     child: Image.network(
                                       sellProducts[index]["image"],
                                     ),
@@ -186,7 +186,7 @@ class _sellScreenState extends State<sellScreen> {
         //   ),
         // ),
         //  )) ),
-        backgroundColor: Colors.lightBlueAccent,
+        backgroundColor: Color.fromARGB(255, 48, 186, 6),
         drawer: Drawer(
           child: ListView(
             children: [

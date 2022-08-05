@@ -30,11 +30,7 @@
 .pub-cache/
 .pub/
 /build/
-lib/screens/buy.dart
-lib/screens/cart.dart
-lib/screens/profile.dart
-lib/screens/product_description.dart
-lib/screens/product_descriptionS.dart
+
 
 # Web related
 lib/generated_plugin_registrant.dart
